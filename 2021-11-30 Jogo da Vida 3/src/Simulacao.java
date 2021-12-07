@@ -1,5 +1,5 @@
 public class Simulacao extends Thread {
-    private static final int INTERVALO_THREAD = 2000;
+    private static final int INTERVALO_THREAD = 500;
 
     private Tabuleiro tabuleiro;
     private volatile boolean rodando = false;

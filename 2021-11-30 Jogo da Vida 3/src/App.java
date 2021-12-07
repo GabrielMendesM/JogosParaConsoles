@@ -10,7 +10,7 @@ import javax.swing.WindowConstants;
 public class App {
     public static void main(String[] args) throws Exception {
         Tabuleiro tabuleiro = new Tabuleiro();
-        Simulacao simulacao = new Simulacao(tabuleiro, 1);
+        Simulacao simulacao = new Simulacao(tabuleiro, 3);
 
         JFrame frame = new JFrame("Jogo da Vida");
         frame.setLayout(new BorderLayout());
