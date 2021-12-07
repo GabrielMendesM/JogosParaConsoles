@@ -8,7 +8,7 @@ public class Mesa {
         }
     }
 
-    public boolean getGarfo(int id) {
+    public boolean pegouGarfo(int id) {
         if (garfos[id] == -1) {
             garfos[id] = id;
             return true;
